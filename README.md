@@ -29,14 +29,6 @@ The goal is to train a neural network capable of reconstructing original (clean)
   - Adjust training parameters (e.g., learning rate, batch size) for the next stage
   - Repeat until full dataset is covered
 
-## Technologies Used
-
-- Python 3
-- TensorFlow / Keras
-- OpenCV or PIL for image processing
-- Albumentations for data augmentation
-- Numpy, Matplotlib for preprocessing and visualization
-
 ## Results
 
 The model successfully learned to reconstruct clean images from watermarked versions, preserving structural details and reducing visible watermark artifacts. Stepwise training helped optimize memory usage and generalization.
@@ -73,14 +65,6 @@ The model successfully learned to reconstruct clean images from watermarked vers
   - Очистить память
   - При необходимости скорректировать параметры обучения
   - Повторить до охвата всего набора
-
-## Используемые технологии
-
-- Python 3
-- TensorFlow / Keras
-- OpenCV или PIL для работы с изображениями
-- Albumentations для аугментаций
-- Numpy, Matplotlib для визуализации и анализа
 
 ## Результаты
 
